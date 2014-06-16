@@ -1,0 +1,6 @@
+h1 Start a Meeting
+form-for model
+  ul.form-fields
+    li.form-fields__item
+      = input name
+  submit id="meeting_form_submit"

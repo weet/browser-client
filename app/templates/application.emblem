@@ -1,0 +1,5 @@
+map-container
+link-to 'meeting.new'
+  | Start Meeting
+.modal
+  outlet
