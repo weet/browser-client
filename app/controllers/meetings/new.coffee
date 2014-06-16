@@ -1,13 +1,13 @@
-MeetingNewController = Ember.Controller.extend(
+MeetingsNewController = Ember.Controller.extend(
 
   actions:
     submit: (event, view) ->
       @get('model').save().then(((response) =>
-        @transitionTo('meeting', @content)
+        @transitionTo('meetings.show', @content)
       ),
       ((response) =>
         console.log(response.errors)
       ))
 )
 
-`export default MeetingNewController`
+`export default MeetingsNewController`

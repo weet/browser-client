@@ -1,8 +1,8 @@
 Router = Ember.Router.extend()
 Router.map ->
   @route 'map', path: '/'
-  @route 'meeting.new', path: 'meeting/new'
-  @resource 'meeting', path: '/meeting/:id'
+  @route 'meetings.new', path: 'meetings/new'
+  @route 'meetings.show', path: 'meetings/:id'
 
 Router.reopen
   location: "history"

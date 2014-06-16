@@ -18,7 +18,7 @@ test "root route", ->
   routesTo('/', 'map')
 
 test "meeting route", ->
-  routesTo('/meeting/h4sh', 'meeting')
+  routesTo('/meetings/h4sh', 'meetings.show')
 
 test "new meeting route", ->
-  routesTo('/meeting/new', 'meeting.new')
+  routesTo('/meetings/new', 'meetings.new')
