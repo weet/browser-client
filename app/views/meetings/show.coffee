@@ -1,7 +1,8 @@
 MeetingsShowView = Ember.View.extend(
 
   didInsertElement: ->
-    features = JSON.parse(@get('controller.model.geojsonResult'))
+    json = JSON.parse(@get('controller.model.geojsonResult'))
+    features = topojson.feature(json, json.objects.counties)
     canvasFunction = (extent, resolution, pixelRatio, size, projection) ->
       canvasWidth = size[0]
       canvasHeight = size[1]

@@ -41,7 +41,8 @@
     "isolatedContainer",
     "startApp",
     "Pretender",
-    "d3"
+    "d3",
+    "topojson"
   ],
   "node" : false,
   "browser" : false,

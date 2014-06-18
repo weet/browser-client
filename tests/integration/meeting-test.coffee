@@ -3,8 +3,8 @@ App = undefined
 module 'Meeting integration',
   setup: ->
     App = startApp()
-  teardown: ->
-    Ember.run(App, 'destroy')
+  # teardown: ->
+  #   Ember.run(App, 'destroy')
 
 test "new meeting page", ->
   visit "/meetings/new"
