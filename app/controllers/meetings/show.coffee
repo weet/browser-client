@@ -1,4 +1,4 @@
-MeetingsShowController = Ember.Controller.extend(
+MeetingsShowController = Ember.ObjectController.extend(
   needs: ['application']
 )
 
