@@ -40,7 +40,8 @@
     "keyEvent",
     "isolatedContainer",
     "startApp",
-    "Pretender"
+    "Pretender",
+    "d3"
   ],
   "node" : false,
   "browser" : false,

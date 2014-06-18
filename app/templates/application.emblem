@@ -1,4 +1,4 @@
-map-container
+#map.map
 link-to 'meetings.new'
   | Start Meeting
 .modal
